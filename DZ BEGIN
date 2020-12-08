@@ -1,0 +1,123 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+	/*begin 12*/
+	/*double a, b, c, p;
+	cout << "1 katet";
+	cin >> a;
+	cout << "2 katet";
+	cin >> b;
+	c = sqrt(pow(a, 2) + pow(b, 2));
+	p = a + b + c;
+	cout << "gipotenyza:" << c << endl;
+	cout << "perimeter:" << p << endl;*/
+
+	/*begin 13
+	double r1, r2, s1, s2, s3, pi = 3.14;
+	cout << "1 radius: ";
+	cin >> r1;
+	cout << "2 radius: ";
+	cin >> r2;
+	s1 = pi * r1 * r1;
+	s2 = pi * r2 * r2;
+	s3 = abs(s1 - s2);
+	cout << "Ploshyad' 1 kruga: " << s1 << endl;
+	cout << "Ploshyad' 2 kruga: " << s2 << endl;
+	cout << "Ploshyad' kolca: " << s3;
+	
+	
+	/*begin 14*/
+	/*	double l, r, s pi = 3.14;
+		cout << "dlina okr";
+		cin >> l;
+		r = l/(2 * pi);
+		s = pi * r * r;
+		cout << " radius" << r << endl;
+		cout << "ploshad" << s;
+		
+
+	/*begin 15*/
+	//	double s, d, l, r, pi = 3.14;
+	//cout << "plos kruga";
+	//cin >> s;
+	//r = sqrt(s / pi);
+	//d = r * 2;
+	//l = pi * d;
+	//cout << "diametr" << d << endl;
+	//cout << "dlina okr" << l;
+
+
+	/*begin 16*/
+	/*double a, b, c, ac, bc, s;
+	cout << "kordinata a";
+	cin >> a;
+	cout << "koordinata b";
+	cin >> b;
+	cout << "koordinata c";
+	cin >> c;
+	ac = abs(a - c);
+	bc = abs(b - c);
+	s = ac + bc;
+	cout << "dlina ac "<< ac << endl;
+	cout << "dlina bc " << ac << endl;
+	cout << "summa dlin ac i bc " << s;*/
+
+	/*begin 17*/
+	/*double a, b, c, bc, ac, sum;
+	cout << "koordinanta a";
+	cin >> a;
+	cout << "koordinanta b";
+	cin >> b;
+	cout << "koordinanta c";
+	cin >> c;
+	ac = abs(a - c);
+	bc = abs(b - c);
+	sum = ac + bc;
+	cout << "dlina ac" << ac << endl;
+	cout << "dlina bc" << bc << endl;
+	cout << "sum ac i bc" << sum;*/
+
+	/*begin 18*/
+	/*double a, b, c, bc, ac, p;
+	cout << "koordinanta a";
+	cin >> a;
+	cout << "koordinanta b";
+	cin >> b;
+	cout << "koordinanta c";
+	cin >> c;
+	ac = abs(a - c);
+	bc = abs(b - c);
+	p = ac * bc;
+	cout << "dlina ac" << ac << endl;
+	cout << "dlina bc" << bc << endl;
+	cout << "proisvedenie ac i bc" << p;*/
+
+	/*begin 19*/
+	/*double x1, y1, x2, y2, a, b, p, s;
+	cout << "kordinata x1: ";
+	cin >> x1;
+	cout << "kordinata y1: ";
+	cin >> y1;
+	cout << "kordinata x2: ";
+	cin >> x2;
+	cout << " kordinata y2: ";
+	cin >> y2;
+	a = abs(x1 - x2);
+	b = abs(y1 - y2);
+	p = (a + b) * 2;
+	s = a * b;
+	cout << "perim etr: " << p << endl;
+	cout << "poloshyad': " << s;*/
+
+//begin 20
+
+	int x1, y1, x2, y2;
+	cout << "Vvedite koordinati  (x1,y1 ";
+	cin >> x1 >> y1;
+	cout << "Vvedite koordinati (x2,y2) ";
+	cin >> x2 >> y2;
+	cout << "Rasstoyaniye mejdu tochkami ravno: " << sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2)) << "." << endl;
+	return 0;
+
+}
